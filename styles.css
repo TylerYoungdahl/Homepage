@@ -63,6 +63,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px 0 30px 0;
 }
 
 .projects {
@@ -114,4 +115,37 @@ main {
 .card-description {
   font-size: 18px;
   color: rgb(85, 85, 85);
+}
+
+footer {
+  color: white;
+  background-color: royalblue;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px 20px;
+}
+
+.footer-info h1 {
+  text-align: center;
+}
+
+.footer-description {
+  font-size: 20px;
+}
+
+.footer-portrait {
+  width: 100%;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 36px;
+}
+
+.footer-icons > * {
+  margin: 0 10px 0 10px;
 }
