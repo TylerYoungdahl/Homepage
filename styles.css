@@ -8,7 +8,13 @@
   src: url("./assets/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
-h1 {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
   font-family: playFairDisplay;
 }
 
@@ -33,8 +39,79 @@ header {
 }
 
 .portrait {
-  width: 80%;
+  width: 90%;
   height: auto;
+  margin-top: 10px;
   z-index: 2;
   border-radius: 6px;
+}
+
+.header-description {
+  width: 90%;
+}
+
+.header-icons {
+  margin-top: 16px;
+}
+
+.header-icons > * {
+  font-size: 30px;
+  margin: 0 10px 0 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 400px;
+  gap: 24px;
+}
+
+.card {
+  box-shadow: 0 0 6px gray;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  font-size: 32px;
+  font-family: playFairDisplay;
+  background-color: brown;
+}
+
+.card-body {
+  height: 180px;
+  padding: 0 15px 0 15px;
+}
+
+.card-body-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.card-body-top h2 {
+  margin: 0;
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.card-icons > * {
+  margin: 0 10px 0 10px;
+}
+
+.card-description {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
 }
